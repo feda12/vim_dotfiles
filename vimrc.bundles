@@ -46,7 +46,6 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-surround'
 Plug 'jgdavey/vim-turbux'
 Plug 'benmills/vimux'
-Plug 'drewolson/vimux-maven-test'
 Plug 'drewolson/vimux-elixir-test'
 Plug 'pitluga/vimux-nose-test'
 Plug 'pgr0ss/vimux-ruby-test'
@@ -55,6 +54,12 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-obsession'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-bundler'
+Plug 'elixir-editors/vim-elixir'
+Plug 'mhinz/vim-mix-format'
+Plug 'sheerun/vim-polyglot'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
 
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local

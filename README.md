@@ -18,3 +18,10 @@ If you plan on using command-t, you'll need to build the C extension. Make sure
 to use the ruby you built vim against:
 
     rvm use system
+
+To build it, go to the `~/.vim/plugged/command-t/ruby/command-t/ext/command-t` folder and run the following:
+
+- `ruby extconf.rb`
+- `make`
+
+Open Vim and check command-t is working using the `\fr` command
