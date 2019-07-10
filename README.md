@@ -1,5 +1,5 @@
-## Ben's Vim Config
-# Copied from Braintree's and updated for personal preferences
+# Ben's Vim Config
+### Copied from Braintree's and updated for personal preferences
 
 After cloning this project, you can run the following to link these dotfiles
 into your home directory:
